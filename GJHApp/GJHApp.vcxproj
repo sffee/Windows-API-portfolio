@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bomb.cpp" />
+    <ClCompile Include="Bomber.cpp" />
+    <ClCompile Include="CharacterFace.cpp" />
+    <ClCompile Include="CharacterSelectBackGround.cpp" />
+    <ClCompile Include="CharacterSelectScene.cpp" />
+    <ClCompile Include="Ending.cpp" />
+    <ClCompile Include="FadeInOut.cpp" />
+    <ClCompile Include="GranadeBox.cpp" />
+    <ClCompile Include="GrandFather.cpp" />
+    <ClCompile Include="HeavyMachineGunBox.cpp" />
+    <ClCompile Include="IdleJumpState_HeavyMachineGun.cpp" />
+    <ClCompile Include="IdleState_HeavyMachineGun.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="JumpLookDownState_HeavyMachineGun.cpp" />
+    <ClCompile Include="JumpLookUpState_HeavyMachineGun.cpp" />
+    <ClCompile Include="Laser.cpp" />
+    <ClCompile Include="LookUpState_HeavyMachineGun.cpp" />
+    <ClCompile Include="MapChange.cpp" />
+    <ClCompile Include="Mission.cpp" />
+    <ClCompile Include="MissionText.cpp" />
+    <ClCompile Include="Monoeyes.cpp" />
+    <ClCompile Include="EndingScene.cpp" />
+    <ClCompile Include="GJHCameraController.cpp" />
+    <ClCompile Include="GJHCameraManager.cpp" />
+    <ClCompile Include="GJHGameEngineMain.cpp" />
+    <ClCompile Include="GlobalScene.cpp" />
+    <ClCompile Include="Helicopter.cpp" />
+    <ClCompile Include="IdleState_Basic.cpp" />
+    <ClCompile Include="IdleJumpState_Basic.cpp" />
+    <ClCompile Include="InstanceObject.cpp" />
+    <ClCompile Include="JumpLookDownState_Basic.cpp" />
+    <ClCompile Include="JumpLookUpState_Basic.cpp" />
+    <ClCompile Include="LookUpState_Basic.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="MonoeyeUFO.cpp" />
+    <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="MonsterBullet.cpp" />
+    <ClCompile Include="MoveBlock.cpp" />
+    <ClCompile Include="MoveJumpState_Basic.cpp" />
+    <ClCompile Include="MoveJumpState_HeavyMachineGun.cpp" />
+    <ClCompile Include="MoveState_Basic.cpp" />
+    <ClCompile Include="MoveState_HeavyMachineGun.cpp" />
+    <ClCompile Include="ObjectBase.cpp" />
+    <ClCompile Include="P1.cpp" />
+    <ClCompile Include="Phase2Manager.cpp" />
+    <ClCompile Include="PivotTestMonster.cpp" />
+    <ClCompile Include="PivotTestMonsterScene.cpp" />
+    <ClCompile Include="PivotTestPlayer.cpp" />
+    <ClCompile Include="PivotTestPlayerScene.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerBullet_Basic.cpp" />
+    <ClCompile Include="PlayerBullet_MachineGun.cpp" />
+    <ClCompile Include="PlayerGranade.cpp" />
+    <ClCompile Include="PlayScene.cpp" />
+    <ClCompile Include="Portfollio.cpp" />
+    <ClCompile Include="SitState_HeavyMachineGun.cpp" />
+    <ClCompile Include="UI.cpp" />
+    <ClCompile Include="Weapon.cpp" />
+    <ClCompile Include="Word.cpp" />
+    <ClCompile Include="SitState_Basic.cpp" />
+    <ClCompile Include="MordenMinigun.cpp" />
+    <ClCompile Include="TombStone.cpp" />
+    <ClCompile Include="ZombieDoctor.cpp" />
+    <ClCompile Include="ZombieGirl.cpp" />
+    <ClCompile Include="TitleBackGround.cpp" />
+    <ClCompile Include="TitleScene.cpp" />
+    <ClCompile Include="ZombieMan.cpp" />
+    <ClCompile Include="ZombieMorden.cpp" />
+    <ClCompile Include="ZombieThrowVomit.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bomb.h" />
+    <ClInclude Include="Bomber.h" />
+    <ClInclude Include="CharacterFace.h" />
+    <ClInclude Include="CharacterSelectBackGround.h" />
+    <ClInclude Include="CharacterSelectScene.h" />
+    <ClInclude Include="Ending.h" />
+    <ClInclude Include="FadeInOut.h" />
+    <ClInclude Include="GranadeBox.h" />
+    <ClInclude Include="GrandFather.h" />
+    <ClInclude Include="HeavyMachineGunBox.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="Laser.h" />
+    <ClInclude Include="MapChange.h" />
+    <ClInclude Include="Mission.h" />
+    <ClInclude Include="MissionText.h" />
+    <ClInclude Include="Monoeyes.h" />
+    <ClInclude Include="EndingScene.h" />
+    <ClInclude Include="GJHCameraController.h" />
+    <ClInclude Include="GJHCameraManager.h" />
+    <ClInclude Include="GJHGameEngineMain.h" />
+    <ClInclude Include="GlobalScene.h" />
+    <ClInclude Include="define.h" />
+    <ClInclude Include="Helicopter.h" />
+    <ClInclude Include="InstanceObject.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="MonoeyeUFO.h" />
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="MonsterBullet.h" />
+    <ClInclude Include="MoveBlock.h" />
+    <ClInclude Include="ObjectBase.h" />
+    <ClInclude Include="P1.h" />
+    <ClInclude Include="Phase2Manager.h" />
+    <ClInclude Include="PivotTestMonster.h" />
+    <ClInclude Include="PivotTestMonsterScene.h" />
+    <ClInclude Include="PivotTestPlayer.h" />
+    <ClInclude Include="PivotTestPlayerScene.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerBullet_Basic.h" />
+    <ClInclude Include="PlayerBullet_MachineGun.h" />
+    <ClInclude Include="PlayerGranade.h" />
+    <ClInclude Include="PlayScene.h" />
+    <ClInclude Include="MordenMinigun.h" />
+    <ClInclude Include="UI.h" />
+    <ClInclude Include="Weapon.h" />
+    <ClInclude Include="Word.h" />
+    <ClInclude Include="TombStone.h" />
+    <ClInclude Include="ZombieDoctor.h" />
+    <ClInclude Include="ZombieGirl.h" />
+    <ClInclude Include="TitleBackGround.h" />
+    <ClInclude Include="TitleScene.h" />
+    <ClInclude Include="ZombieMan.h" />
+    <ClInclude Include="ZombieMorden.h" />
+    <ClInclude Include="ZombieThrowVomit.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GJHApiEngine\GJHApiEngine.vcxproj">
+      <Project>{51ae96e3-01f4-469b-aa95-ddcd79aeb8e2}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\GJHGameEngine\GJHGameEngine.vcxproj">
+      <Project>{53de8fcd-a189-4faf-8617-6d3d5512212f}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{62576256-FED0-41C2-9521-1974A96CE735}</ProjectGuid>
+    <RootNamespace>GJHAPI</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>..\ThirdParty\inc\;$(VC_IncludePath);$(WindowsSDK_IncludePath);..\GJHGameEngine\;..\GJHApiEngine\</IncludePath>
+    <OutDir>..\Build\$(Configuration)\$(PlatformTarget)\</OutDir>
+    <IntDir>..\Build\$(Configuration)\$(PlatformTarget)\$(ProjectName)\</IntDir>
+    <LibraryPath>..\ThirdParty\lib\x64\;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\ThirdParty\inc\;$(VC_IncludePath);$(WindowsSDK_IncludePath);..\GJHGameEngine\;..\GJHApiEngine\</IncludePath>
+    <LibraryPath>..\ThirdParty\lib\x64\;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>..\ThirdParty\inc\;$(VC_IncludePath);$(WindowsSDK_IncludePath);..\GJHGameEngine\;..\GJHApiEngine\</IncludePath>
+    <OutDir>..\Build\$(Configuration)\$(PlatformTarget)\</OutDir>
+    <IntDir>..\Build\$(Configuration)\$(PlatformTarget)\$(ProjectName)\</IntDir>
+    <LibraryPath>..\ThirdParty\lib\x64\;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\ThirdParty\inc\;$(VC_IncludePath);$(WindowsSDK_IncludePath);..\GJHGameEngine\;..\GJHApiEngine\</IncludePath>
+    <LibraryPath>..\ThirdParty\lib\x64\;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+    <OutDir>..\Build\$(Configuration)\$(PlatformTarget)\</OutDir>
+    <IntDir>..\Build\$(Configuration)\$(PlatformTarget)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

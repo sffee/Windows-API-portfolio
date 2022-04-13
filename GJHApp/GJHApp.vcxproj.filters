@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Portfollio.cpp" />
+    <ClCompile Include="EndingScene.cpp">
+      <Filter>EndingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScene.cpp">
+      <Filter>PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalScene.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleBackGround.cpp">
+      <Filter>TitleScene\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHGameEngineMain.cpp" />
+    <ClCompile Include="PivotTestPlayer.cpp">
+      <Filter>PivotTestScene\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectBase.cpp">
+      <Filter>PlayScene\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerGranade.cpp">
+      <Filter>PlayScene\Actor\Player\PlayerBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="PivotTestMonster.cpp">
+      <Filter>PivotTestScene\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="PivotTestPlayerScene.cpp">
+      <Filter>PivotTestScene</Filter>
+    </ClCompile>
+    <ClCompile Include="PivotTestMonsterScene.cpp">
+      <Filter>PivotTestScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ZombieMan.cpp">
+      <Filter>PlayScene\Actor\Monster\Zombie\ZombieMan</Filter>
+    </ClCompile>
+    <ClCompile Include="ZombieGirl.cpp">
+      <Filter>PlayScene\Actor\Monster\Zombie\ZombieGirl</Filter>
+    </ClCompile>
+    <ClCompile Include="ZombieDoctor.cpp">
+      <Filter>PlayScene\Actor\Monster\Zombie\ZombieDoctor</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHCameraController.cpp">
+      <Filter>PlayScene\Actor\CamControl</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHCameraManager.cpp">
+      <Filter>PlayScene\Actor\CamControl</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>PlayScene\Actor\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="InstanceObject.cpp">
+      <Filter>PlayScene\Actor\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>PlayScene\Actor\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>PlayScene\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="MordenMinigun.cpp">
+      <Filter>PlayScene\Actor\Monster\Morden\MordenMinigun</Filter>
+    </ClCompile>
+    <ClCompile Include="ZombieThrowVomit.cpp">
+      <Filter>PlayScene\Actor\Monster\Zombie</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter.cpp">
+      <Filter>PlayScene\Actor\Monster\Helicopter</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterBullet.cpp">
+      <Filter>PlayScene\Actor\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomber.cpp">
+      <Filter>PlayScene\Actor\Monster\Bomber</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>PlayScene\Actor\Monster\Bomber</Filter>
+    </ClCompile>
+    <ClCompile Include="Monoeyes.cpp">
+      <Filter>PlayScene\Actor\Monster\Boss\Phase1</Filter>
+    </ClCompile>
+    <ClCompile Include="MonoeyeUFO.cpp">
+      <Filter>PlayScene\Actor\Monster\Boss\Phase2</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser.cpp">
+      <Filter>PlayScene\Actor\Monster\Boss\Phase2</Filter>
+    </ClCompile>
+    <ClCompile Include="TombStone.cpp">
+      <Filter>PlayScene\Actor\Monster\Boss\Phase2</Filter>
+    </ClCompile>
+    <ClCompile Include="Word.cpp">
+      <Filter>PlayScene\Actor\Monster\Boss\Phase2</Filter>
+    </ClCompile>
+    <ClCompile Include="ZombieMorden.cpp">
+      <Filter>PlayScene\Actor\Monster\Zombie\ZombieMorden</Filter>
+    </ClCompile>
+    <ClCompile Include="Phase2Manager.cpp">
+      <Filter>PlayScene\Actor\Monster\Boss\Phase2</Filter>
+    </ClCompile>
+    <ClCompile Include="MapChange.cpp">
+      <Filter>PlayScene\Actor\Monster\Boss\Phase2</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>PlayScene\Actor\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>PlayScene\Actor\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBullet_Basic.cpp">
+      <Filter>PlayScene\Actor\Player\PlayerBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="IdleJumpState_Basic.cpp">
+      <Filter>PlayScene\Actor\Player\PlayerState\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="IdleState_Basic.cpp">
+      <Filter>PlayScene\Actor\Player\PlayerState\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="LookUpState_Basic.cpp">
+      <Filter>PlayScene\Actor\Player\PlayerState\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveJumpState_Basic.cpp">
+      <Filter>PlayScene\Actor\Player\PlayerState\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveState_Basic.cpp">
+      <Filter>PlayScene\Actor\Player\PlayerState\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="SitState_Basic.cpp">
+      <Filter>PlayScene\Actor\Player\PlayerState\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpLookDownState_Basic.cpp">
+      <Filter>PlayScene\Actor\Player\PlayerState\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpLookUpState_Basic.cpp">
+      <Filter>PlayScene\Actor\Player\PlayerState\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="SitState_HeavyMachineGun.cpp">
+      <Filter>PlayScene\Actor\Player\PlayerState\HeavyMachineGun</Filter>
+    </ClCompile>
+    <ClCompile Include="IdleJumpState_HeavyMachineGun.cpp">
+      <Filter>PlayScene\Actor\Player\PlayerState\HeavyMachineGun</Filter>
+    </ClCompile>
+    <ClCompile Include="IdleState_HeavyMachineGun.cpp">
+      <Filter>PlayScene\Actor\Player\PlayerState\HeavyMachineGun</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpLookDownState_HeavyMachineGun.cpp">
+      <Filter>PlayScene\Actor\Player\PlayerState\HeavyMachineGun</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpLookUpState_HeavyMachineGun.cpp">
+      <Filter>PlayScene\Actor\Player\PlayerState\HeavyMachineGun</Filter>
+    </ClCompile>
+    <ClCompile Include="LookUpState_HeavyMachineGun.cpp">
+      <Filter>PlayScene\Actor\Player\PlayerState\HeavyMachineGun</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveJumpState_HeavyMachineGun.cpp">
+      <Filter>PlayScene\Actor\Player\PlayerState\HeavyMachineGun</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveState_HeavyMachineGun.cpp">
+      <Filter>PlayScene\Actor\Player\PlayerState\HeavyMachineGun</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBullet_MachineGun.cpp">
+      <Filter>PlayScene\Actor\Player\PlayerBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>PlayScene\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="GranadeBox.cpp">
+      <Filter>PlayScene\Actor\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="HeavyMachineGunBox.cpp">
+      <Filter>PlayScene\Actor\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="GrandFather.cpp">
+      <Filter>PlayScene\Actor\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="MissionText.cpp">
+      <Filter>PlayScene\Actor\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Mission.cpp">
+      <Filter>PlayScene\Actor\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeInOut.cpp">
+      <Filter>Global\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterSelectScene.cpp">
+      <Filter>CharacterSelectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterSelectBackGround.cpp">
+      <Filter>CharacterSelectScene\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveBlock.cpp">
+      <Filter>CharacterSelectScene\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="P1.cpp">
+      <Filter>CharacterSelectScene\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterFace.cpp">
+      <Filter>CharacterSelectScene\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Ending.cpp">
+      <Filter>EndingScene\Actor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Global">
+      <UniqueIdentifier>{5a842642-2e9b-435c-88ae-39774cef42b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene">
+      <UniqueIdentifier>{029a7875-e6e4-439b-977c-8d63fac6e1b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TitleScene">
+      <UniqueIdentifier>{3cd76bfa-4675-4c97-a202-c90f54d2f168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EndingScene">
+      <UniqueIdentifier>{dd21cc44-05e5-4111-bcb2-7f8053ecd666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EndingScene\Actor">
+      <UniqueIdentifier>{c020209e-f511-4407-bc98-c59889d8ae9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global\Actor">
+      <UniqueIdentifier>{918b610e-a7b4-4bf4-9751-345a25bee823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TitleScene\Actor">
+      <UniqueIdentifier>{12bc0c4b-c555-4308-8aa6-288ddaf79a12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Actor">
+      <UniqueIdentifier>{f335c86f-b0d7-4bfc-8f73-31ab1abed43b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PivotTestScene">
+      <UniqueIdentifier>{84ef67d9-0498-490d-9ff4-9578ec7df7e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PivotTestScene\Actor">
+      <UniqueIdentifier>{7410cb6e-2c2f-46d0-a5ea-7ca0f558bc99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Actor\Monster">
+      <UniqueIdentifier>{077ed113-408b-4260-9711-30eecfdde101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Actor\CamControl">
+      <UniqueIdentifier>{d373f2ea-e201-482d-92bc-1077b89f6f62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Actor\Map">
+      <UniqueIdentifier>{fcf0c4e8-3138-49de-8f57-11ea5f765483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Actor\Object">
+      <UniqueIdentifier>{6b2431d0-e102-413c-aa01-caeff6c4221b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Actor\Player">
+      <UniqueIdentifier>{a8c54324-4a37-48aa-bf07-e892cc3ade59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Actor\Player\PlayerState">
+      <UniqueIdentifier>{0e59fcb1-640a-4bc1-92c3-5ed77880aaf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Actor\Player\PlayerBullet">
+      <UniqueIdentifier>{6e11c473-f528-498a-b89f-b23e64805976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Actor\Monster\Zombie">
+      <UniqueIdentifier>{5ace9cf6-aec2-4ddf-bab4-93fbcacd42ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Actor\Monster\Zombie\ZombieDoctor">
+      <UniqueIdentifier>{69ad62b5-db99-414d-be84-2233ede0396b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Actor\Monster\Zombie\ZombieGirl">
+      <UniqueIdentifier>{1c234aac-a234-4632-aa2b-74fcc784355e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Actor\Monster\Zombie\ZombieMan">
+      <UniqueIdentifier>{f50a3512-6932-45fe-bc31-1aa5ba9bc6c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Actor\Monster\Morden">
+      <UniqueIdentifier>{08c8ac58-d9f3-47de-957b-42a374f4c48f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Actor\Monster\Morden\MordenMinigun">
+      <UniqueIdentifier>{b74c1fe4-7662-43f7-9f5f-1bc3fdc6637e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Actor\Monster\Helicopter">
+      <UniqueIdentifier>{d77df3ad-e1d3-4c98-ade7-af13fce0d3e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Actor\Monster\Bomber">
+      <UniqueIdentifier>{2364464c-8f94-4302-9ad7-a12efc82e721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Actor\Monster\Boss">
+      <UniqueIdentifier>{4363b587-c8aa-40c0-995d-8ed9b2699c16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Actor\Monster\Boss\Phase1">
+      <UniqueIdentifier>{1d0e5d2c-c7b0-4290-bcc2-17caa39ea294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Actor\Monster\Boss\Phase2">
+      <UniqueIdentifier>{45706a2a-e49d-4eb9-8765-eb8d93cc5a11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Actor\Monster\Zombie\ZombieMorden">
+      <UniqueIdentifier>{e0e144b8-4ddd-442d-b4e7-3b0a55fa8dd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Actor\UI">
+      <UniqueIdentifier>{695aed09-b8be-464f-afc2-7eba84652f56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Actor\Player\PlayerState\Basic">
+      <UniqueIdentifier>{cc4fc6eb-c8b8-42e8-8e1b-4bc98ba58b1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Actor\Player\PlayerState\HeavyMachineGun">
+      <UniqueIdentifier>{e35706bf-fcf5-47eb-b1ac-e36414e2ef3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Actor\Item">
+      <UniqueIdentifier>{16b67629-768b-43b9-90f4-4ad9d9a33781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\Actor\NPC">
+      <UniqueIdentifier>{42d99e0b-3d95-499d-b16a-ae46d98da1a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CharacterSelectScene">
+      <UniqueIdentifier>{dd1541cc-3c2c-4ff1-bd66-51354edcd654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CharacterSelectScene\Actor">
+      <UniqueIdentifier>{e16093bf-a222-4909-a001-1d9b560d2d3e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EndingScene.h">
+      <Filter>EndingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScene.h">
+      <Filter>PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalScene.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleBackGround.h">
+      <Filter>TitleScene\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHGameEngineMain.h" />
+    <ClInclude Include="PivotTestPlayer.h">
+      <Filter>PivotTestScene\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h" />
+    <ClInclude Include="ObjectBase.h">
+      <Filter>PlayScene\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerGranade.h">
+      <Filter>PlayScene\Actor\Player\PlayerBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="PivotTestMonster.h">
+      <Filter>PivotTestScene\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="PivotTestPlayerScene.h">
+      <Filter>PivotTestScene</Filter>
+    </ClInclude>
+    <ClInclude Include="PivotTestMonsterScene.h">
+      <Filter>PivotTestScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ZombieMan.h">
+      <Filter>PlayScene\Actor\Monster\Zombie\ZombieMan</Filter>
+    </ClInclude>
+    <ClInclude Include="ZombieGirl.h">
+      <Filter>PlayScene\Actor\Monster\Zombie\ZombieGirl</Filter>
+    </ClInclude>
+    <ClInclude Include="ZombieDoctor.h">
+      <Filter>PlayScene\Actor\Monster\Zombie\ZombieDoctor</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHCameraManager.h">
+      <Filter>PlayScene\Actor\CamControl</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHCameraController.h">
+      <Filter>PlayScene\Actor\CamControl</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>PlayScene\Actor\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceObject.h">
+      <Filter>PlayScene\Actor\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>PlayScene\Actor\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>PlayScene\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="MordenMinigun.h">
+      <Filter>PlayScene\Actor\Monster\Morden\MordenMinigun</Filter>
+    </ClInclude>
+    <ClInclude Include="ZombieThrowVomit.h">
+      <Filter>PlayScene\Actor\Monster\Zombie</Filter>
+    </ClInclude>
+    <ClInclude Include="Helicopter.h">
+      <Filter>PlayScene\Actor\Monster\Helicopter</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterBullet.h">
+      <Filter>PlayScene\Actor\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomber.h">
+      <Filter>PlayScene\Actor\Monster\Bomber</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>PlayScene\Actor\Monster\Bomber</Filter>
+    </ClInclude>
+    <ClInclude Include="Monoeyes.h">
+      <Filter>PlayScene\Actor\Monster\Boss\Phase1</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoeyeUFO.h">
+      <Filter>PlayScene\Actor\Monster\Boss\Phase2</Filter>
+    </ClInclude>
+    <ClInclude Include="Laser.h">
+      <Filter>PlayScene\Actor\Monster\Boss\Phase2</Filter>
+    </ClInclude>
+    <ClInclude Include="TombStone.h">
+      <Filter>PlayScene\Actor\Monster\Boss\Phase2</Filter>
+    </ClInclude>
+    <ClInclude Include="Word.h">
+      <Filter>PlayScene\Actor\Monster\Boss\Phase2</Filter>
+    </ClInclude>
+    <ClInclude Include="ZombieMorden.h">
+      <Filter>PlayScene\Actor\Monster\Zombie\ZombieMorden</Filter>
+    </ClInclude>
+    <ClInclude Include="Phase2Manager.h">
+      <Filter>PlayScene\Actor\Monster\Boss\Phase2</Filter>
+    </ClInclude>
+    <ClInclude Include="MapChange.h">
+      <Filter>PlayScene\Actor\Monster\Boss\Phase2</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>PlayScene\Actor\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>PlayScene\Actor\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBullet_Basic.h">
+      <Filter>PlayScene\Actor\Player\PlayerBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBullet_MachineGun.h">
+      <Filter>PlayScene\Actor\Player\PlayerBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>PlayScene\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="GranadeBox.h">
+      <Filter>PlayScene\Actor\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="HeavyMachineGunBox.h">
+      <Filter>PlayScene\Actor\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GrandFather.h">
+      <Filter>PlayScene\Actor\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="MissionText.h">
+      <Filter>PlayScene\Actor\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Mission.h">
+      <Filter>PlayScene\Actor\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeInOut.h">
+      <Filter>Global\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterSelectScene.h">
+      <Filter>CharacterSelectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterSelectBackGround.h">
+      <Filter>CharacterSelectScene\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="P1.h">
+      <Filter>CharacterSelectScene\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveBlock.h">
+      <Filter>CharacterSelectScene\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterFace.h">
+      <Filter>CharacterSelectScene\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Ending.h">
+      <Filter>EndingScene\Actor</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

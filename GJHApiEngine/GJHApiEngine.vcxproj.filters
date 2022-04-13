@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Base">
+      <UniqueIdentifier>{eccba45e-8018-4f59-9e9f-bf34e0e1efd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{f2103fc7-4bb0-471f-b7a9-b5d4e2d91906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{0025c95b-c93c-469e-a027-cb626334f0db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Res">
+      <UniqueIdentifier>{a845d356-d07c-40f9-a71e-d8d03ca22b98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{fa079d92-5af9-4958-a2a6-3c9848c53f25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{fca97e60-7f7c-484e-a760-5897f9a279c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GJHSceneManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHGameEngineActor.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHGameEngineScene.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHGameEngineWindow.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHGameEngineImage.cpp">
+      <Filter>Res</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHResourcesManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHRenderer.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHActorSubObjectBase.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHCollision.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="GJHGameEngineObjectBase.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GJHSceneManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHGameEngineActor.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHGameEngineScene.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHGameEngineWindow.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHGameEngineImage.h">
+      <Filter>Res</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHResourcesManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHRenderer.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHActorSubObjectBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHCollision.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="GJHGameEngineObjectBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

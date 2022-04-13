@@ -1,0 +1,1 @@
+XCOPY %~2\ThirdParty\lib\x64\*.* %~2\Build\%~1\x64\ /y /d
